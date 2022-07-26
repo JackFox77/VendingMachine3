@@ -7,7 +7,7 @@ function _drawSnacks() {
     console.log('drawing snacks', snacks)
     let template = ''
     snacks.forEach(s => template += s.Template)
-    document.getElementById('snacks').innerHTML=template
+    document.getElementById('snacks').innerHTML = template
 }
 
 _drawSnacks()
