@@ -8,3 +8,5 @@ export class Snack{
         this.location = location
     }
 }
+
+
